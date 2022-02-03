@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{B7748B7B-1F34-435A-9E19-8F1BA73C45E6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FilmFanatic/Views/Home/Delete.cshtml">
+    <Files>
+      <File FileName="FilmFanatic/Controllers/HomeController.cs" Line="107" Column="1" />
+      <File FileName="FilmFanatic/Views/Home/FilmCollection.cshtml" Line="26" Column="9" />
+      <File FileName="FilmFanatic/Models/FilmCollectionContext.cs" Line="29" Column="31" />
+      <File FileName="FilmFanatic/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="FilmFanatic/Models/CollectionResponse.cs" Line="18" Column="9" />
+      <File FileName="FilmFanatic/Views/Home/AddtoCollection.cshtml" Line="58" Column="30" />
+      <File FileName="FilmFanatic/Models/Category.cs" Line="1" Column="1" />
+      <File FileName="FilmFanatic/Models/ErrorViewModel.cs" />
+      <File FileName="FilmFanatic/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="FilmFanatic/Startup.cs" Line="16" Column="25" />
+      <File FileName="FilmFanatic/Views/Home/Delete.cshtml" Line="15" Column="1" />
+      <File FileName="FilmFanatic/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FilmFanatic" expanded="True">
+            <Node name="FilmFanatic" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FilmFanatic PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

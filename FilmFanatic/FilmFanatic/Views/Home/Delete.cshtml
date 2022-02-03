@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Delete Film";
+}
+@model FilmFanatic.Models.CollectionResponse
+
+<h2>Confirm Deletion</h2>
+<h3>Are you sure you want to delete @Model.Title from the collection?</h3>
+
+<form method="post" asp-action="Delete">
+    <button type="submit">Yes</button>
+    <button type="button" class="btn-primary"><a asp-controller="Home" asp-action="FilmCollection" class="button btn-primary">No</a></button>
+
+    @*this submits the id needed for the controller to know what record to delete*@
+    <input type="hidden" asp-for="FilmId" />
+</form>

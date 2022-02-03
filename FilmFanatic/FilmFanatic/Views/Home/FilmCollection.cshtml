@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "Joel Hilton's Film Collection";
+}
+
+@model List<FilmFanatic.Models.CollectionResponse>
+
+<table class="table table-bordered table-striped">
+
+    <thead class="font-weight-bold">
+        <tr>
+            <td>Title</td>
+            <td>Category</td>
+            <td>Rating</td>
+            <td>Year Released</td>
+            <td>Director</td>
+            <td>Edited</td>
+            <td>Lent to</td>
+            <td>Notes</td>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        @*Model refers to  model passed in through razors at the top*@
+        @foreach(var x in Model)
+        {
+        <tr>
+            <td>@x.Title</td>
+            <td>@x.Category.CategoryName</td>
+            <td>@x.Rating</td>
+            <td>@x.Year</td>
+            <td>@x.Director</td>
+            <td>@x.Edited</td>
+            <td>@x.LentTo</td>
+            <td>@x.Notes</td>
+
+            <td><a asp-controller="Home" asp-action="Edit" asp-route-filmid="@x.FilmId">Edit</a></td>
+            <td><a asp-controller="Home" asp-action="Delete" asp-route-filmid="@x.FilmId">Delete</a></td>
+        </tr>
+        }
+    </tbody>
+</table>
